@@ -1,0 +1,28 @@
+.work-block {
+	margin: 189px 0 0 0;
+}
+.work-block__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.work-block__title {
+	font-size: 25px;
+}
+.work-block__body {
+	margin: 33px 0 0 0;
+	display: grid;
+	grid-template-columns: 300px 300px 300px;
+	grid-gap: 20px 22px;
+	@media (max-width: 950px){
+		grid-template-columns: 300px 300px;
+	}
+	@media (max-width: 621px){
+		grid-template-columns: 300px
+	}
+}
+.word-block__item {
+}
+.work-block__img {
+}
