@@ -132,6 +132,11 @@ body {
   font-size: 11px;
   color: #999999;
 }
+@media (max-width: 750px){
+  .menu-block__link {
+    color: #fff;
+  }
+}
 
 .menu-block__link:hover {
   color: #00D6B4;
